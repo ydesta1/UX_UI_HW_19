@@ -1,3 +1,16 @@
+
+
+body{
+    background-color: skyblue;
+}
+
+p{
+    font-size: 30px;
+}
+
+li{
+    font-size: 20px;
+}
 .inline-block{
     display: inline-block;
     vertical-align: top;

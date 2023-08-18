@@ -1,5 +1,7 @@
 console.log("your index.js file loaded correctly!");
 
-$(p).click(function(){
-    console.log("your clicked a button");
+$("button").click(function(){
+    console.log("you clicked a button");
+    
+    $(".fadeMe").fadeToggle("slow");
   });
